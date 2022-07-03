@@ -14,14 +14,8 @@ const MainContent = () => (
             <li>I love playing video games! 🎮</li>
           </ul>
         </div>
-        <div class="col-6">
-          <ul class="list-unstyled">
-            <li>I like working out 🏋️</li>
-            <li>I like reading books 📘</li>
-            <li>I love coding 👨‍💻 </li>
-            <li>I like watching animes! ϞϞ(๑⚈ ․̫ ⚈๑)∩</li>
-            <li>I love playing video games! 🎮</li>
-          </ul>
+        <div class="col-6 pt-5">
+          <h1>Get to know more about me</h1>
         </div>
       </div>
     </main>
