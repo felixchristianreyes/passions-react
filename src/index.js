@@ -5,6 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MainContent from './components/MainContent/MainContent';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-bootstrap-icons';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

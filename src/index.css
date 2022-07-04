@@ -1,3 +1,42 @@
+:root {
+  --col1: #FDFFBC !important;
+  --col2: #FFEEBB !important;
+  --col3: #FFDCB8 !important;
+  --col4: #FFC1B6 !important;
+}
+
+.col-bg-pal1 {
+  background-color: var(--col1);
+}
+
+.col-bg-pal2 {
+  background-color: var(--col2);
+}
+
+.col-bg-pal3 {
+  background-color: var(--col3);
+}
+
+.col-bg-pal4 {
+  background-color: var(--col4);
+}
+
+.col-pal1 {
+  color: var(--col1);
+}
+
+.col-pal2 {
+  color: var(--col2);
+}
+
+.col-pal3 {
+  color: var(--col3);
+}
+
+.col-pal4 {
+  color: var(--col4);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,5 +46,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nav-link:hover {
+  background-color: var(--col4);
+}
 
 
